@@ -3,6 +3,7 @@ import "./App.css";
 import axios from "axios";
 import FirstTask from "./components/FirstTask";
 import SecondTask from "./components/SecondTask";
+import Parent from "./components/Parent";
 
 function App() {
   const [posts, setPosts] = useState([]);
@@ -42,6 +43,7 @@ function App() {
       </ol>
       <FirstTask />
       <SecondTask />
+      <Parent />
     </div>
   );
 }
